@@ -1,0 +1,1 @@
+00000: 00 00001 00 000 1111 00 01 0101 1 #wenn man FF + 01 rechnet, kommt 00 raus,also ist die Z flag auf 1 und es gab einen overflow, also ist C (die carry flag) auf 1

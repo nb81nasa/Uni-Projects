@@ -1,0 +1,28 @@
+#Division
+
+00000: 00 00001 00 000 1100 01 01 1100 0 #R0 = FC
+00001: 00 00011 00 001 1101 01 01 1100 0 #R1 = FD
+00010: 10 00111 01 001 0000 01 10 0001 0 #R1 = (R1), Teste ob (R1) 0 ist, wenn ja: Adr00111, wenn nein, Adr00110
+00011: 00 00010 00 011 0000 01 01 1100 0 #R3 = 0.
+#00100:
+#00101:
+00110: 10 01001 01 000 0000 01 10 0001 0 #R0 = (R0), Teste ob (R0) 0 ist, wenn ja: Adr01001, wenn nein: Adr01000
+00111: 00 00000 00 000 0000 00 00 0000 0 #Abbruch, springe weg.
+
+#hier kann die eig. Division beginnen.
+01000: 00 01011 00 001 0001 01 00 0010 0 #R1 = com(R1)
+
+01001: 00 01010 00 111 1111 01 01 1100 0 #R7 = FF, hier hingesprungen, wenn 0/x. Dann ist Erg = 0.
+01010: 00 00000 11 111 0000 00 01 1100 0 #(R7) = 0
+
+01011: 10 01100 00 000 0001 01 00 0101 0 #R0 = R0 + R1 + 1, hier erstmal mit Carry-Out (und nicht Carry-Flag) probiert. Wenn CO = 1 (also Zahl negativ bzw. Overflow): Adr01101, wenn es noch reinpasst: Adr01100
+
+01100: 00 01011 00 011 0000 01 01 0101 0 #Zaehler hochsetzen. Zaehler sei mal auf R3.
+
+#Ausgabe der Ergebnisse, FF ist Erg, FE ist Rest.
+01101: 00 01110 00 111 1111 01 01 1100 0 #R7 = FF, nochmal.. koennte man optimieren.
+01110: 00 01111 11 111 0011 00 00 1100 0 #(R7) = FF = R3.
+01111: 00 10000 00 111 1110 01 01 1100 0 #R7 = FE
+10000: 00 10001 00 001 0001 01 00 0010 0 #R1 = NOT(R1)
+10001: 00 10010 00 000 0001 01 00 0100 0 #R0 = R0 + R1, man muss ja wieder einen schritt zurueckgehen.
+10010: 00 00000 11 111 0000 00 00 1100 0 #(R7) = FE = R0.

@@ -1,0 +1,3 @@
+1a) In dieser Programm in der Dauerschleifre wird 2 auf das Register 0 addiert (R=0+1+1)
+1b) aendert sich nichts, weil das Programm nur 2 auf das Register 0 addiert und die Eingabe gar nicht verwendet
+2b) Die Auffaligkeit bwstehi darinm dass C=0 und nicht 1. Es kommt dadurch zustande, dass die A+B+1 negieren.

@@ -1,0 +1,397 @@
+<Qucs Dataset 0.0.19>
+<indep dtime 16>
+  +0.00000000000e+000
+  +1.00000000000e-009
+  +2.00000000000e-009
+  +3.00000000000e-009
+  +4.00000000000e-009
+  +5.00000000000e-009
+  +6.00000000000e-009
+  +7.00000000000e-009
+  +8.00000000000e-009
+  +9.00000000000e-009
+  +1.00000000000e-008
+  +1.10000000000e-008
+  +1.20000000000e-008
+  +1.30000000000e-008
+  +1.40000000000e-008
+  +1.50000000000e-008
+</indep>
+<dep _net0.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep _net1.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep _net10.X dtime>
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+</dep>
+<dep _net11.X dtime>
+  0
+  0
+  0
+  0
+  1
+  1
+  1
+  1
+  0
+  0
+  0
+  0
+  1
+  1
+  1
+  1
+</dep>
+<dep _net12.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+</dep>
+<dep _net13.X dtime>
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+  0
+  0
+  1
+  1
+</dep>
+<dep _net14.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+</dep>
+<dep _net15.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+</dep>
+<dep _net16.X dtime>
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+  0
+  1
+</dep>
+<dep _net17.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+</dep>
+<dep _net2.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep _net3.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+</dep>
+<dep _net4.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep _net5.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep _net6.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep _net7.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep _net8.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep _net9.X dtime>
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+</dep>
+<dep z0.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  1
+  1
+  1
+  1
+  1
+  1
+  1
+</dep>
+<dep z1.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
+<dep z2.X dtime>
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  X
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+</dep>
